@@ -83,16 +83,15 @@
 }
 
 .card1{
-    width: 75%;
-    height: 75%;
+    width: 70%;
+    height: 70%;
     background-color: rgb(226, 229, 227);
-    border-radius: 25px;
+    border-radius: 12.5px;
     display: flex;
 }
 
 .card1 img{
     width: auto;
-    border-radius: 25px;
     padding: 1%;
 }
 
