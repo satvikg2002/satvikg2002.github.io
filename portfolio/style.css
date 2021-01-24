@@ -4,12 +4,12 @@
 }
 
 .navBack {
-    background: rgba(0, 0, 0, 0.5) url("/img/bg2.jpg");
+    background: rgba(0, 0, 0, 0.5) url("img/bg2.jpg");
     background-blend-mode: darken;
 }
 
 .background {
-    background: rgba(0,0,0,0.5) url("/img/bg1.jpg");
+    background: rgba(0,0,0,0.5) url("img/bg1.jpg");
     background-blend-mode: darken;
     height: 90vh;
 }
