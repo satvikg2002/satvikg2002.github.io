@@ -1,0 +1,50 @@
+*{
+    margin: 3px;
+}
+
+.background{
+    background-color: rgba(29, 26, 26, 0.925);
+}
+
+.font{
+    font-weight: bold;
+    font-size: 25pt;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.email{
+    color: rgb(255, 153, 0);
+}
+
+.email:hover{
+    color: rgb(217, 255, 0);
+}
+
+.github{
+    color: rgb(224, 48, 48);
+}
+
+.github:hover{
+    color: rgb(153, 255, 0);
+}
+
+.linkedin{
+    color: rgb(43, 183, 230);
+}
+
+.linkedin:hover{
+    color: white;
+}
+
+.portfolio{
+    color: rgb(255, 136, 156);
+}
+
+.portfolio:hover{
+    color: purple;
+}
+
+.headings{
+    color: white;
+}
