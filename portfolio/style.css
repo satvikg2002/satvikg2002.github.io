@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navBack {
+    background: rgba(0, 0, 0, 0.5) url("../img/bg2.jpg");
+    background-blend-mode: darken;
+}
+
+.background {
+    background: rgba(0,0,0,0.5) url("../img/bg1.jpg");
+    background-blend-mode: darken;
+    height: 90vh;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.nameheading{
+    width: 30%;
+    display: flex;
+}
+
+.nameheading h1{
+    width: 60%;
+    color:rgb(238, 237, 231);
+    margin: auto;
+    font: bold 25pt monospace;
+}
+
+.navbarRight{
+    width: 70%;
+    align-items: center;
+    padding: 0 75px;
+}
+
+.navbarRight ul{
+    display: flex;
+    list-style: none;
+    float: right;
+}
+
+.navbarRight ul li{
+    margin: 35px;
+    font: 12pt monospace;
+}
+
+.navbarRight ul li a{
+    list-style: none;
+    text-decoration: none;
+    color:rgb(238, 237, 231);
+}
+
+.navbarRight ul li a:hover{
+    color: rgb(207, 133, 49);
+}
+
+.aboutme{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme h1{
+    font: bold 35pt montserrat;
+    color: rgb(215, 228, 217);
+    height: 10%;
+}
+
+.card1{
+    width: 75%;
+    height: 75%;
+    background-color: rgb(226, 229, 227);
+    border-radius: 25px;
+    display: flex;
+}
+
+.card1 img{
+    width: auto;
+    border-radius: 25px;
+    padding: 1%;
+}
+
+.card1 p{
+    font: bold 17.5pt montserrat;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
