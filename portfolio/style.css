@@ -10,7 +10,7 @@
 .background {
     background: rgba(0,0,0,0.5) url("img/bg1.jpg");
     background-blend-mode: darken;
-    height: 90vh;
+    height: 100vh;
 }
 
 @font-face {
@@ -90,20 +90,18 @@
     width: 70%;
     height: 70%;
     background-color: rgb(226, 229, 227);
-    border-radius: 12px;
+    border-radius: 12.5px;
     display: flex;
 }
 
 .card1 img{
-    width: 37.2%;
+    width: 41.5%;
     margin: 1.25%;
 }
 
 .card1 p{
     font: 17.5pt montserrat;
     color: rgb(31, 28, 28);
-    justify-content: center;
-    align-items: center;
     margin-left: 7%;
     margin-top: 1.5%;
     margin-right: 2%;
@@ -118,6 +116,8 @@
 
 .card2Left{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     margin: 2%;
     width: 35%;
@@ -126,9 +126,23 @@
     background-color: rgb(226, 229, 227);
 }
 
+.card2Left h1{
+    font: bold 27.5pt montserrat;
+    color: rgb(31, 28, 28);
+    margin: 2%;
+}
+
+.card2Left ul{
+    list-style: none;
+    font: 17.5pt montserrat;
+    color: rgb(31, 28, 28);
+    margin: 2%;
+}
+
 .card2Right{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 2%;
     width: 35%;
     height: 70%;
@@ -137,5 +151,48 @@
 }
 
 .card2Right img{
-    
+    width: 90%;
+    height: 90%;
+}
+
+.skills{
+    color: rgb(31, 28, 28);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 60%;
+    flex-direction: column;
+    border-radius: 12.5px;
+    background-color: rgb(226, 229, 227);
+}
+
+.card3 h1{
+    font: bold 27.5pt montserrat;
+    margin: 3%;
+}
+
+.card3 table{
+    margin: 3%;
+    width: 60%;
+}
+
+.skillsLeft{
+    font: 17.5pt montserrat;
+}
+
+.skillsRight{
+    text-align: right;
+}
+
+.skillsRight span{
+    font-size: 22.5pt;
 }
