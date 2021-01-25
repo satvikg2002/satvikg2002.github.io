@@ -103,8 +103,9 @@
     font: 17.5pt montserrat;
     color: rgb(31, 28, 28);
     margin-left: 7%;
-    margin-top: 1.5%;
+    margin-top: 3%;
     margin-right: 2%;
+    line-height: 22.5pt;
 }
 
 .hobbies{
@@ -139,11 +140,14 @@
     margin: 2%;
 }
 
+.card2Left ul li{
+    margin: 3%;
+}
+
 .card2Right{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2%;
     width: 35%;
     height: 70%;
     border-radius: 12.5px;
