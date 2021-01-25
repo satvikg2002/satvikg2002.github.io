@@ -4,8 +4,7 @@
 }
 
 .navBack {
-    background: rgba(0, 0, 0, 0.5) url("img/bg2.jpg");
-    background-blend-mode: darken;
+    background-color: rgb(0, 0, 0);
 }
 
 .background {
@@ -38,7 +37,7 @@
     width: 60%;
     color:rgb(238, 237, 231);
     margin: auto;
-    font: bold 25pt monospace;
+    font: bold 25pt montserrat;
 }
 
 .navbarRight{
@@ -55,7 +54,7 @@
 
 .navbarRight ul li{
     margin: 35px;
-    font: 12pt monospace;
+    font: 12pt montserrat;
 }
 
 .navbarRight ul li a{
@@ -65,7 +64,7 @@
 }
 
 .navbarRight ul li a:hover{
-    color: rgb(207, 133, 49);
+    color: grey;
 }
 
 .aboutme{
@@ -79,6 +78,7 @@
     font: bold 27.5pt montserrat;
     margin-left: 7%;
     margin-top: 10%;
+    margin-right: 2%;
 }
 
 .cardRight{
@@ -106,4 +106,5 @@
     align-items: center;
     margin-left: 7%;
     margin-top: 1.5%;
+    margin-right: 2%;
 }
