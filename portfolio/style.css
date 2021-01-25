@@ -76,8 +76,9 @@
 }
 
 .aboutme h1{
-    font: bold 35pt montserrat;
-    margin: 7%;
+    font: bold 27.5pt montserrat;
+    margin-left: 7%;
+    margin-top: 10%;
 }
 
 .cardRight{
@@ -95,13 +96,14 @@
 
 .card1 img{
     width: auto;
-    margin: 1.1%;
-    border-radius: 12px;
+    margin: 1.25%;
 }
 
 .card1 p{
-    font: bold 17.5pt montserrat;
+    font: 17.5pt montserrat;
+    color: rgb(65, 61, 61);
     justify-content: center;
     align-items: center;
-    margin: 7%;
+    margin-left: 7%;
+    margin-top: 1.5%;
 }
