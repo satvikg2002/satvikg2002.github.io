@@ -71,33 +71,37 @@
 .aboutme{
     width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .aboutme h1{
     font: bold 35pt montserrat;
-    color: rgb(215, 228, 217);
-    height: 10%;
+    margin: 7%;
+}
+
+.cardRight{
+    display: flex;
+    flex-direction: column;
 }
 
 .card1{
     width: 70%;
     height: 70%;
     background-color: rgb(226, 229, 227);
-    border-radius: 12.5px;
+    border-radius: 12px;
     display: flex;
 }
 
 .card1 img{
     width: auto;
-    padding: 1%;
+    margin: 1.1%;
+    border-radius: 12px;
 }
 
 .card1 p{
     font: bold 17.5pt montserrat;
     justify-content: center;
     align-items: center;
-    margin: 10%;
+    margin: 7%;
 }
