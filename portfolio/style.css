@@ -205,3 +205,52 @@ html {
     font-size: 22.5pt;
 }
 
+@media only screen and (max-width: 610px){
+    .navbar{
+        flex-direction: column;
+    }
+
+    .navbarRight{
+        flex-direction: column;
+    }
+    
+    .navbarRight {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .aboutme img{
+        width: 50%;
+    }
+   
+    .card2Left h1{
+        font: 35pt josefin;
+        padding: 10px;
+    }
+    
+    .card2Left ul{
+        list-style: none;
+        font: 24pt josefin;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 974px){
+    .skills h1{
+        font: 35pt josefin;
+    }
+    
+    .card3{
+        width: 100%;
+    }
+
+    .skillsLeft{
+        font: 24pt josefin;
+        padding-left: 40px;
+    }
+
+    .skillsRight span{
+        font-size: 24pt;
+        padding-right: 40px;
+    }
+}
