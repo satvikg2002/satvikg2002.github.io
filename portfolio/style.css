@@ -205,52 +205,93 @@ html {
     font-size: 22.5pt;
 }
 
-@media only screen and (max-width: 610px){
+@media only screen and (max-width: 640px){
+    
     .navbar{
         flex-direction: column;
+        height: auto;
     }
 
-    .navbarRight{
-        flex-direction: column;
+    .nameheading{
+        width: 100%;
+        height: 1vh;
     }
-    
+
     .navbarRight {
-        flex-direction: column;
-        width: auto;
-    }
-
-    .aboutme img{
-        width: 50%;
-    }
-   
-    .card2Left h1{
-        font: 35pt josefin;
-        padding: 10px;
-    }
-    
-    .card2Left ul{
-        list-style: none;
-        font: 24pt josefin;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 974px){
-    .skills h1{
-        font: 35pt josefin;
-    }
-    
-    .card3{
         width: 100%;
     }
 
+    .navbarRight ul{
+        height: 13vh;
+    }
+
+    .card1{
+        flex-direction: column;
+        margin-top: 25vh;
+        height: 70%;
+        width: 80%;
+    }
+
+    .card1 img{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        align-items: center ;
+    }
+
+    .card1 h1{
+        margin-top: 0;
+        font: bold 16pt montserrat;
+        margin-left: 4%;
+    }
+
+    .card1 p{
+        font: 10pt montserrat;
+        margin-left: 4%;
+    }
+
+    .hobbies{
+        flex-direction: column;
+    }
+
+    .card2Left{
+        margin-top: 15vh;
+        width: 60%;
+        height: 30%;
+    }
+
+    .card2Left h1{
+        font: bold 16pt montserrat;
+    }
+
+    .card2Left ul{
+        font: 10pt montserrat;
+    }
+
+    .card2Right{
+        width: 60%;
+        height: 30%;
+    }
+   
+    .card3{
+        width: 70%;
+        height: 60%;
+    }
+
+    .card3 h1{
+        font: bold 16pt montserrat;
+    }
+
     .skillsLeft{
-        font: 24pt josefin;
-        padding-left: 40px;
+        font: 10pt montserrat;
+    }
+
+    .card3 table{
+        width: 80%;
     }
 
     .skillsRight span{
-        font-size: 24pt;
-        padding-right: 40px;
+        font-size: 17pt;
     }
 }
