@@ -227,7 +227,6 @@ html {
 
     .card1{
         flex-direction: column;
-        margin-top: 25vh;
         height: 70%;
         width: 80%;
     }
@@ -256,7 +255,7 @@ html {
     }
 
     .card2Left{
-        margin-top: 15vh;
+        margin-top: 10vh;
         width: 60%;
         height: 30%;
     }
