@@ -3,7 +3,7 @@
 }
 
 .background{
-    background-color: rgba(29, 27, 27, 0.925);
+    background-color: rgba(41, 35, 35, 0.925);
 }
 
 .font{
@@ -14,15 +14,15 @@
 }
 
 .email{
-    color: rgb(255, 153, 0);
+    color: rgba(233, 46, 46, 0.8);
 }
 
 .email:hover{
-    color: rgb(217, 255, 0);
+    color: rgba(233, 46, 46);
 }
 
 .github{
-    color: rgb(224, 48, 48);
+    color: rgba(153, 255, 0, 0.8);
 }
 
 .github:hover{
@@ -30,11 +30,11 @@
 }
 
 .linkedin{
-    color: rgb(43, 183, 230);
+    color: rgb(43, 183, 230, 0.8);
 }
 
 .linkedin:hover{
-    color: white;
+    color: rgb(43, 183, 230);
 }
 
 .portfolio{
