@@ -37,12 +37,20 @@
     color: rgb(43, 183, 230);
 }
 
-.portfolio{
-    color: rgb(255, 136, 156);
+.notes-app{
+    color: rgba(255, 133, 153, 0.767);
 }
 
-.portfolio:hover{
-    color: purple;
+.notes-app:hover{
+    color: rgb(255, 133, 153);
+}
+
+.firebase{
+    color: rgba(255, 255, 0, 0.774);
+}
+
+.firebase:hover{
+    color: yellow;
 }
 
 .headings{
