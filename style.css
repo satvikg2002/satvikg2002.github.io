@@ -54,6 +54,22 @@
     color: yellow;
 }
 
+.tictactoe{
+    color: rgba(0, 255, 255, 0.616);
+}
+
+.tictactoe:hover{
+    color: rgb(0, 255, 255);
+}
+
+.chromedino{
+    color: rgba(137, 43, 226, 0.719);
+}
+
+.chromedino:hover{
+    color: rgb(137, 43, 226);
+}
+
 .headings{
     color: white;
 }
